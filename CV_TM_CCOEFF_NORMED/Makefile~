@@ -1,0 +1,3 @@
+main:main.cpp match_template.cpp  match_template.h
+	g++ `pkg-config --cflags opencv` -o main main.cpp match_template.cpp match_template.h  `pkg-config --libs opencv`
+
